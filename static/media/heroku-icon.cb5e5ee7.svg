@@ -1,0 +1,10 @@
+<svg id="heroku-icon" xmlns="http://www.w3.org/2000/svg" width="111.415" height="111.415" viewBox="0 0 111.415 111.415">
+  <g id="Group_11" data-name="Group 11" transform="translate(0 0)">
+    <g id="Group_9" data-name="Group 9" transform="translate(0)">
+      <g id="Group_6" data-name="Group 6" transform="translate(0)">
+        <path id="Path_24" data-name="Path 24" d="M8.57,0h94.274a8.57,8.57,0,0,1,8.57,8.57v94.274a8.57,8.57,0,0,1-8.57,8.57H8.57A8.57,8.57,0,0,1,0,102.844V8.57A8.57,8.57,0,0,1,8.57,0Z" transform="translate(0)"/>
+      </g>
+    </g>
+  </g>
+  <path id="icons-heroku" d="M28.8,106.637V78.984L42.635,92.816Zm51.983.087H67.541V58.161S70.7,46.533,28.63,62.916C28.554,63.123,28.554,18,28.554,18L42.3,17.925v28.9s38.488-15.156,38.488,11.5ZM75.369,35.416H60.788C66.043,29,70.787,18,70.787,18h15.08S83.284,25.167,75.369,35.416Z" transform="translate(-1.733 -6.552)" fill="#fff"/>
+</svg>
