@@ -1,0 +1,60 @@
+.navbarContainer {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  position: relative;
+}
+
+/* Menu button icon*/
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 20px;
+  height: 100%;
+}
+.menuBttn {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.navBarTopMenu {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 0%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/*Wrapper to center the text*/
+.navBarTopMenu > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.navBarTopMenu > :first-child {
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 15px;
+}
+
+.exitBttnContainer > img {
+  height: 40px;
+  width: 40px;
+}
+
+/* Color of the options*/
+.navBarTopMenu > div:nth-child(odd) {
+  background-color: #1d1817;
+}
+
+.navBarTopMenu > div:nth-child(even) {
+  background-color: black;
+}

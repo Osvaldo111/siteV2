@@ -1,0 +1,212 @@
+a {
+  text-decoration: none;
+}
+.pageContainer {
+  /* display: flex;
+  flex-direction: column; */
+  height: 100%;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100%;
+  position: relative;
+}
+
+.particlesContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Intorduction section */
+.introContainer {
+  /* display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute; */
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+}
+
+.introTop {
+  padding: 15px;
+}
+
+.introTop > h2 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.introTop > h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.introTop > h3 {
+  font-weight: 500;
+}
+
+/* --- Intorduction section  --- */
+
+/* About Container */
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+/* ---  About Container --- */
+
+/* Skills Section */
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.stackImages > img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+}
+/* ----Skills section --- */
+
+/* ---Link Container--- */
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.linksImages > img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 5px;
+}
+
+/* ---Link Container--- */
+
+/* ---Work Section--- */
+.workContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.workProject {
+  display: flex;
+}
+
+.workProject > img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+}
+.workProject > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectDesc {
+  font-weight: 600;
+}
+/* ---Work Section--- */
+
+/* ---Tech Container--- */
+.techContainer {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.techContainer > h2 {
+  margin-bottom: 10px;
+}
+
+.appBttn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* ---Tech Container--- */
+
+/* ---Projects Container */
+.floppyerContainer {
+  display: none;
+}
+
+.floppyerContainer > img {
+  width: 100%;
+}
+
+/* ---Projects Container */
+
+/* ---Contact Container---*/
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.contactContainer > h3 {
+  margin-bottom: 15px;
+}
+.contactMail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactMail > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.contactMail > p {
+  font-weight: 600;
+}
+/* ---Contact Container---*/
+
+/* ---Arrow Button --- */
+.arrowDown {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  color: white; */
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrowDown > a {
+  color: white;
+  /* position: absolute; */
+  bottom: 50px;
+}
+
+.arrowDown > a > p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+/* ---Arrow Button --- */
