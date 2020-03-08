@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ac5e39bd4c497414ca1ce393039af33",
+    "revision": "984efcc046bb630dfdd85fd13db59e5f",
     "url": "/siteV2/index.html"
   },
   {
-    "revision": "9b81ee0825d6083432a8",
-    "url": "/siteV2/static/css/main.93f48c19.chunk.css"
+    "revision": "9584abd6ff079619d7db",
+    "url": "/siteV2/static/css/main.ccee0dfc.chunk.css"
   },
   {
     "revision": "730af1fc9d34769218e0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/siteV2/static/js/2.03d68618.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b81ee0825d6083432a8",
-    "url": "/siteV2/static/js/main.a06a7ee7.chunk.js"
+    "revision": "9584abd6ff079619d7db",
+    "url": "/siteV2/static/js/main.8c598018.chunk.js"
   },
   {
     "revision": "40e25e6ee93ffac43e19",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/siteV2/static/media/react-icon.6e390feb.svg"
   },
   {
-    "revision": "e14878596ae22fcb393ace94bc6c5e6d",
-    "url": "/siteV2/static/media/safari-floppyer.e1487859.svg"
+    "revision": "99775850d9c1670ec529a6e3da9eb952",
+    "url": "/siteV2/static/media/safari-floppyer.99775850.svg"
   },
   {
     "revision": "15f963e4dc09b733fb56edfec3cfb165",
