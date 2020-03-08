@@ -47,13 +47,13 @@ export default class MainPage extends React.Component {
             <NavBar />
           </div>
           <div className="arrowDown">
-            <a href="#workContainer">
+            <a href="#work">
               <p>See Work</p>
               <img src={downArrow} alt="" />
             </a>
           </div>
         </div>
-        <div className="aboutContainer">
+        <div className="aboutContainer" id="about">
           <h1>About</h1>
           <p>
             I strive to create elegant solutions that surprise and delight users
@@ -81,47 +81,56 @@ export default class MainPage extends React.Component {
             <img src={iconPsql} alt="" />
           </div>
         </div>
-        <div className="linksContainer">
+        <div className="linksContainer" id="links">
           <h1>Links</h1>
           <div className="linksImages">
-            <img src={iconnLinkedin} alt="" />
-            <img src={iconGit} alt="" />
-          </div>
-        </div>
-        <div className="workContainer" id="workContainer">
-          <h1>Work</h1>
-          <div className="workProject">
-            <img src={floppyerIcon} alt="" />
-            <h2>Floppyer</h2>
-          </div>
-          <div className="projectDesc">
-            <p>
-              A web application for people in the tech industry looking for a
-              remote job.
-            </p>
-          </div>
-          <div className="techContainer">
-            <h2>Technology</h2>
-            <p>
-              Floppyer is a Node js app living in Heroku. The front-end
-              implements React JS for easy page manipulation. The backend
-              implements Express/Node.js to requests the data from the server.
-            </p>
-          </div>
-          <div>
             <a
-              className="appBttn"
-              href="https://www.floppyer.com/"
+              href="https://www.linkedin.com/in/osvaldo-carrillo/"
               target="_blank"
             >
-              Go to App
+              <img src={iconnLinkedin} alt="" />
             </a>
+            <a href="https://github.com/Osvaldo111" target="_blank">
+              <img src={iconGit} alt="" />
+            </a>
+          </div>
+        </div>
+        <div className="workContainer" id="work">
+          <div className="workContaDesc">
+            <h1>Work</h1>
+            <div className="workProject">
+              <img src={floppyerIcon} alt="" />
+              <h2>Floppyer</h2>
+            </div>
+            <div className="projectDesc">
+              <p>
+                A web application for people in the tech industry looking for a
+                remote job.
+              </p>
+            </div>
+            <div className="techContainer">
+              <h2>Technology</h2>
+              <p>
+                Floppyer is a Node js app living in Heroku. The front-end
+                implements React JS for easy page manipulation. The backend
+                implements Express/Node.js to requests the data from the server.
+              </p>
+            </div>
+            <div className="appBttnContainer">
+              <a
+                className="appBttn"
+                href="https://www.floppyer.com/"
+                target="_blank"
+              >
+                Go to App
+              </a>
+            </div>
           </div>
           <div className="floppyerContainer">
             <img src={floppyerProject} alt="" />
           </div>
         </div>
-        <div className="contactContainer">
+        <div className="contactContainer" id="contact">
           <h3>I'm available for work, get in touch</h3>
           <a className="contactMail" href="mailto:osvaldofabricio11@gmail.com">
             <img src={mailIcon} alt="" />

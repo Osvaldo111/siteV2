@@ -14,7 +14,6 @@ export default class NavBar extends React.Component {
   }
 
   componentDidMount() {
-    // alert();
     console.log("My REF: ", this.myRef.current);
   }
   displayMobileMenu = () => {
@@ -46,17 +45,17 @@ export default class NavBar extends React.Component {
           <div className="exitBttnContainer">
             <img src={exitBttn} alt="" onClick={this.closeMobileMenu} />
           </div>
-          <div>
-            <p>Home</p>
+          <div className="navBarLink">
+            <a href="#about">About</a>
           </div>
-          <div>
-            <p>About</p>
+          <div className="navBarLink">
+            <a href="#links">Links</a>
           </div>
-          <div>
-            <p>Work</p>
+          <div className="navBarLink">
+            <a href="#work">Work</a>
           </div>
-          <div>
-            <p>Contact</p>
+          <div className="navBarLink">
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </div>

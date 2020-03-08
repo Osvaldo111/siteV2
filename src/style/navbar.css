@@ -58,3 +58,55 @@
 .navBarTopMenu > div:nth-child(even) {
   background-color: black;
 }
+
+.navBarLink > a {
+  color: white;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .iconWrapper {
+    display: none;
+  }
+
+  .navBarTopMenu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #000000;
+    /* position: fixed; */
+    animation: moveNavBar 2s;
+  }
+
+  .navBarTopMenu > div:first-child {
+    display: none;
+  }
+
+  .navBarTopMenu > div {
+    width: 100px;
+  }
+
+  /* Color of the options*/
+  .navBarTopMenu > div:nth-child(odd) {
+    background-color: transparent;
+  }
+
+  .navBarTopMenu > div:nth-child(even) {
+    background-color: transparent;
+  }
+
+  .navBarTopMenu > div:nth-child(2) > a {
+    color: #cf740b;
+    font-weight: 700;
+  }
+}
+
+@keyframes moveNavBar {
+  from {
+    width: 0px;
+    background-color: #dcdcdc;
+  }
+  to {
+    width: 100%;
+  }
+}
