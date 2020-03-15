@@ -96,38 +96,149 @@ export default class MainPage extends React.Component {
           </div>
         </div>
         <div className="workContainer" id="work">
-          <div className="workContaDesc">
-            <h1>Work</h1>
-            <div className="workProject">
-              <img src={floppyerIcon} alt="" />
-              <h2>Floppyer</h2>
+          <h1>Work</h1>
+          <div className="workSection">
+            <div className="workContaDesc">
+              <div className="workProject">
+                <img src={floppyerIcon} alt="" />
+                <h2>Sound Canvas</h2>
+              </div>
+              <div className="projectDesc">
+                <p>
+                  A web application for designing paintings according to sound
+                  frequencies provided by the user, which can be customized with
+                  the many features of the app.
+                </p>
+              </div>
+              <div className="techContainer">
+                <h2>Technology</h2>
+                <p>
+                  SoundCanvas is a Node.js application living in Heroku. The
+                  front-end implements React JS with Redux. The back-end
+                  implements Node.js/Express/PostgreSQL to request data from the
+                  server.
+                </p>
+              </div>
+              <div className="appBttnContainer">
+                <a
+                  className="appBttn"
+                  href="https://www.floppyer.com/"
+                  target="_blank"
+                >
+                  Go to App
+                </a>
+              </div>
             </div>
-            <div className="projectDesc">
-              <p>
-                A web application for people in the tech industry looking for a
-                remote job.
-              </p>
-            </div>
-            <div className="techContainer">
-              <h2>Technology</h2>
-              <p>
-                Floppyer is a Node js app living in Heroku. The front-end
-                implements React JS for easy page manipulation. The backend
-                implements Express/Node.js to requests the data from the server.
-              </p>
-            </div>
-            <div className="appBttnContainer">
-              <a
-                className="appBttn"
-                href="https://www.floppyer.com/"
-                target="_blank"
-              >
-                Go to App
-              </a>
+            <div className="floppyerContainer">
+              <img src={floppyerProject} alt="" />
             </div>
           </div>
-          <div className="floppyerContainer">
-            <img src={floppyerProject} alt="" />
+          <div className="workSection">
+            <div className="workContaDesc">
+              <div className="workProject">
+                <img src={floppyerIcon} alt="" />
+                <h2>Floppyer</h2>
+              </div>
+              <div className="projectDesc">
+                <p>
+                  A web application for people in the tech industry looking for
+                  a remote job.
+                </p>
+              </div>
+              <div className="techContainer">
+                <h2>Technology</h2>
+                <p>
+                  Floppyer is a Node js app living in Heroku. The front-end
+                  implements React JS for easy page manipulation. The backend
+                  implements Express/Node.js to requests the data from the
+                  server.
+                </p>
+              </div>
+              <div className="appBttnContainer">
+                <a
+                  className="appBttn"
+                  href="https://www.floppyer.com/"
+                  target="_blank"
+                >
+                  Go to App
+                </a>
+              </div>
+            </div>
+            <div className="floppyerContainer">
+              <img src={floppyerProject} alt="" />
+            </div>
+          </div>
+          <div className="workSection">
+            <div className="workContaDesc">
+              <div className="workProject">
+                <img src={floppyerIcon} alt="" />
+                <h2>CryptoList</h2>
+              </div>
+              <div className="projectDesc">
+                <p>
+                  A web application for people with interest in consulting the
+                  current market price and financial information of the top 100
+                  cryptocurrencies
+                </p>
+              </div>
+              <div className="techContainer">
+                <h2>Technology</h2>
+                <p>
+                  CryptoList was made with plain JavaScript vanilla and AJAX.
+                  This app uses the CoinGecko API to gather the data of the
+                  cryptocurrencies. The app is living in Github Pages.
+                </p>
+              </div>
+              <div className="appBttnContainer">
+                <a
+                  className="appBttn"
+                  href="https://www.floppyer.com/"
+                  target="_blank"
+                >
+                  Go to App
+                </a>
+              </div>
+            </div>
+            <div className="floppyerContainer">
+              <img src={floppyerProject} alt="" />
+            </div>
+          </div>
+          <div className="workSection">
+            <div className="workContaDesc">
+              <div className="workProject">
+                <img src={floppyerIcon} alt="" />
+                <h2>Sorting Visualizer</h2>
+              </div>
+              <div className="projectDesc">
+                <p>
+                  A web application for people with interest in consulting the
+                  current market price and financial information of the top 100
+                  cryptocurrencies
+                </p>
+              </div>
+              <div className="techContainer">
+                <h2>Technology</h2>
+                <p>
+                  This app was designed with Javascript vanilla. In this
+                  application, there are two algorithms used which are "Quick
+                  Sort" and "Bubble Sort". The purpose of the application is to
+                  visually demonstrate how these two algorithms work
+                  respectively.
+                </p>
+              </div>
+              <div className="appBttnContainer">
+                <a
+                  className="appBttn"
+                  href="https://www.floppyer.com/"
+                  target="_blank"
+                >
+                  Go to App
+                </a>
+              </div>
+            </div>
+            <div className="floppyerContainer">
+              <img src={floppyerProject} alt="" />
+            </div>
           </div>
         </div>
         <div className="contactContainer" id="contact">

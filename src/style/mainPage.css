@@ -180,6 +180,11 @@ a {
 .projectDesc {
   font-weight: 600;
 }
+
+.workSection {
+  display: flex;
+  flex-direction: column;
+}
 /* ---Work Section--- */
 
 /* ---Tech Container--- */
@@ -287,7 +292,6 @@ a {
 
   .workContainer {
     padding-left: 100px;
-    width: 500px;
   }
 
   .linksContainer {
@@ -306,9 +310,8 @@ a {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .workContainer {
+  .workSection {
     flex-direction: row;
-    width: auto;
   }
 
   .workContaDesc {
