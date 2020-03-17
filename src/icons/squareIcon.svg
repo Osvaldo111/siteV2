@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.023" height="53.023" viewBox="0 0 53.023 53.023">
+  <g id="squareIcon" transform="translate(-334.696 -997.803)">
+    <g id="postgresql-icon" transform="translate(334.696 997.803)">
+      <g id="Group_15" data-name="Group 15" transform="translate(0 0)">
+        <g id="Group_9" data-name="Group 9">
+          <g id="Group_6" data-name="Group 6">
+            <path id="Path_24" data-name="Path 24" d="M4.079,0H48.944a4.079,4.079,0,0,1,4.079,4.079V48.944a4.079,4.079,0,0,1-4.079,4.079H4.079A4.079,4.079,0,0,1,0,48.944V4.079A4.079,4.079,0,0,1,4.079,0Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="18" cy="18" r="18" transform="translate(343 1006)" fill="#fff"/>
+  </g>
+</svg>

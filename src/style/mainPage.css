@@ -169,7 +169,7 @@ a {
 .workProject > img {
   width: 60px;
   height: 60px;
-  margin: 10px 0;
+  margin: 10px 10px 0 0;
 }
 .workProject > h2 {
   display: flex;
@@ -207,9 +207,14 @@ a {
   border-radius: 5px;
   cursor: pointer;
 }
-.appBttnContainer {
+.appBttnContainer,
+.designBttnContainer {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.designBttnContainer {
+  margin-top: 30px;
 }
 /* ---Tech Container--- */
 
@@ -262,7 +267,8 @@ a {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: opacityAni 2s;
+  /* animation: opacityAni 2s; */
+  /* animation: zoomEffect 8s infinite; */
 }
 
 .arrowDown > a {
@@ -276,6 +282,32 @@ a {
   margin-bottom: 20px;
   font-size: 25px;
 }
+
+@keyframes arrowAnim {
+  from {
+    opacity: 0.5;
+    height: 0%;
+  }
+  to {
+    opacity: 1;
+    height: 0%;
+  }
+}
+@keyframes zoomEffect {
+  0% {
+    background-position: center;
+    transform: scale(1, 1);
+  }
+  50% {
+    background-position: center;
+    transform: scale(2, 2);
+  }
+  100% {
+    background-position: center;
+    transform: scale(1, 1);
+  }
+}
+
 /* ---Arrow Button --- */
 
 /* Medium devices (tablets, 768px and up)*/

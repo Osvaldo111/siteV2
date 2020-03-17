@@ -15,9 +15,14 @@ import iconPython from "../icons/python-icon.svg";
 import iconReact from "../icons/react-icon.svg";
 import iconXD from "../icons/xd-icon.svg";
 import iconCss from "../icons/css-icon.svg";
+import squareIcon from "../icons/squareIcon.svg";
+import soundCanvasIcon from "../icons/soundCanvasIcon.svg";
 import downArrow from "../icons/arrow-down.svg";
-import floppyerIcon from "../images/floppy-icon.svg";
-import floppyerProject from "../images/safari-floppyer.svg";
+import floppyerIcon from "../images/floppyer-icon.svg";
+import floppyerApp from "../images/floppyerApp.svg";
+import sortVisApp from "../images/sortVisApp.svg";
+import cryptoApp from "../images/cryptoApp.svg";
+import soundCanvasApp from "../images/soundCanApp.svg";
 import mailIcon from "../images/mail.svg";
 
 export default class MainPage extends React.Component {
@@ -63,11 +68,7 @@ export default class MainPage extends React.Component {
         </div>
         <div className="skillsContainer">
           <h1>Stack Technologies</h1>
-          <p>
-            I strive to create elegant solutions that surprise and delight users
-            while keeping complex technical dependencies in mind for
-            implementation, scalability and developer sanity.
-          </p>
+          <p>These are some of the technologies that I use.</p>
           <div className="stackImages">
             <img src={iconJS} alt="" />
             <img src={iconNode} alt="" />
@@ -100,7 +101,7 @@ export default class MainPage extends React.Component {
           <div className="workSection">
             <div className="workContaDesc">
               <div className="workProject">
-                <img src={floppyerIcon} alt="" />
+                <img src={soundCanvasIcon} alt="" />
                 <h2>Sound Canvas</h2>
               </div>
               <div className="projectDesc">
@@ -122,15 +123,24 @@ export default class MainPage extends React.Component {
               <div className="appBttnContainer">
                 <a
                   className="appBttn"
-                  href="https://www.floppyer.com/"
+                  href="https://soundcanvas.herokuapp.com/"
                   target="_blank"
                 >
                   Go to App
                 </a>
               </div>
+              <div className="designBttnContainer">
+                <a
+                  className="appBttn"
+                  href="https://drive.google.com/file/d/1N-NHEPW8_YQl8QPGQ5RTXkdQrJFSl1tU/view?usp=sharing"
+                  target="_blank"
+                >
+                  Go to Design
+                </a>
+              </div>
             </div>
             <div className="floppyerContainer">
-              <img src={floppyerProject} alt="" />
+              <img src={soundCanvasApp} alt="" />
             </div>
           </div>
           <div className="workSection">
@@ -165,34 +175,34 @@ export default class MainPage extends React.Component {
               </div>
             </div>
             <div className="floppyerContainer">
-              <img src={floppyerProject} alt="" />
+              <img src={floppyerApp} alt="" />
             </div>
           </div>
           <div className="workSection">
             <div className="workContaDesc">
               <div className="workProject">
-                <img src={floppyerIcon} alt="" />
+                <img src={squareIcon} alt="" />
                 <h2>CryptoList</h2>
               </div>
               <div className="projectDesc">
                 <p>
                   A web application for people with interest in consulting the
                   current market price and financial information of the top 100
-                  cryptocurrencies
+                  cryptocurrencies.
                 </p>
               </div>
               <div className="techContainer">
                 <h2>Technology</h2>
                 <p>
-                  CryptoList was made with plain JavaScript vanilla and AJAX.
-                  This app uses the CoinGecko API to gather the data of the
+                  CryptoList was made with JavaScript vanilla and AJAX. This app
+                  uses the CoinGecko API to gather the data of the
                   cryptocurrencies. The app is living in Github Pages.
                 </p>
               </div>
               <div className="appBttnContainer">
                 <a
                   className="appBttn"
-                  href="https://www.floppyer.com/"
+                  href="https://osvaldo111.github.io/CryptoList/View/index.html"
                   target="_blank"
                 >
                   Go to App
@@ -200,27 +210,26 @@ export default class MainPage extends React.Component {
               </div>
             </div>
             <div className="floppyerContainer">
-              <img src={floppyerProject} alt="" />
+              <img src={cryptoApp} alt="" />
             </div>
           </div>
           <div className="workSection">
             <div className="workContaDesc">
               <div className="workProject">
-                <img src={floppyerIcon} alt="" />
+                <img src={squareIcon} alt="" />
                 <h2>Sorting Visualizer</h2>
               </div>
               <div className="projectDesc">
                 <p>
-                  A web application for people with interest in consulting the
-                  current market price and financial information of the top 100
-                  cryptocurrencies
+                  A web application to visualize how the sorting algorithms
+                  "Quick Sort" and "Bubble Sort" work.
                 </p>
               </div>
               <div className="techContainer">
                 <h2>Technology</h2>
                 <p>
                   This app was designed with Javascript vanilla. In this
-                  application, there are two algorithms used which are "Quick
+                  application, there were two algorithms used which are "Quick
                   Sort" and "Bubble Sort". The purpose of the application is to
                   visually demonstrate how these two algorithms work
                   respectively.
@@ -229,7 +238,7 @@ export default class MainPage extends React.Component {
               <div className="appBttnContainer">
                 <a
                   className="appBttn"
-                  href="https://www.floppyer.com/"
+                  href="https://sorting-visualizer-7c0f9.web.app/"
                   target="_blank"
                 >
                   Go to App
@@ -237,7 +246,7 @@ export default class MainPage extends React.Component {
               </div>
             </div>
             <div className="floppyerContainer">
-              <img src={floppyerProject} alt="" />
+              <img src={sortVisApp} alt="" />
             </div>
           </div>
         </div>
